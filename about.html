@@ -1,329 +1,327 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-warm-grid">
-    <meta name="description" content="발산 마사지 링크 – 진짜 정보. 가짜 리뷰, 가격 낚시 없음. 발산역 1번 출구 3분, 예약 010-6279-0862.">
-    <meta name="keywords" content="발산 마사지, 발산 마사지 링크, 발산 스웨디시, 발산 타이마사지, 발산 근육통, 발산 전신마사지, 마사지 링크, 발산 마사지 정보">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://balsan-body-note.program-school.online/about.html">
-    <meta property="og:title" content="발산 마사지 링크 – 정보">
-    <meta property="og:description" content="발산 마사지 링크 – 진짜 정보. 가짜 리뷰, 가격 낚시 없음. 발산역 1번 출구 3분, 예약 010-6279-0862.">
-    <title>발산 마사지 링크 – 정보</title>
-    <style>
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #faf8f5;
-            color: #1a1a1a;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-        nav {
-            position: sticky;
-            top: 0;
-            background: #ffffff;
-            border-bottom: 1px solid #e0ddd8;
-            z-index: 100;
-            padding: 12px 0;
-        }
-        .nav-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .nav-logo {
-            font-size: 1.4rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            color: #1a1a1a;
-            text-decoration: none;
-        }
-        .nav-links {
-            display: flex;
-            gap: 32px;
-            align-items: center;
-        }
-        .nav-links a {
-            text-decoration: none;
-            color: #4a4a4a;
-            font-size: 0.95rem;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-        .nav-links a:hover {
-            color: #1a1a1a;
-        }
-        .hamburger {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 1.8rem;
-            cursor: pointer;
-            color: #1a1a1a;
-            padding: 4px;
-        }
-        .hamburger:hover {
-            opacity: 0.7;
-        }
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-            }
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: #ffffff;
-                flex-direction: column;
-                padding: 20px 24px;
-                gap: 16px;
-                border-bottom: 1px solid #e0ddd8;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            }
-            .nav-links.open {
-                display: flex;
-            }
-        }
-        .page-header {
-            padding: 80px 0 40px;
-            text-align: center;
-        }
-        .page-header h1 {
-            font-size: 2.8rem;
-            font-weight: 800;
-            letter-spacing: -0.03em;
-            line-height: 1.15;
-            margin-bottom: 16px;
-        }
-        .page-header p {
-            font-size: 1.15rem;
-            color: #5a5a5a;
-            max-width: 640px;
-            margin: 0 auto;
-        }
-        .section {
-            padding: 60px 0;
-        }
-        .section-title {
-            font-size: 1.8rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 32px;
-        }
-        .grid-2 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-        }
-        @media (max-width: 640px) {
-            .grid-2 {
-                grid-template-columns: 1fr;
-            }
-            .page-header h1 {
-                font-size: 2rem;
-            }
-        }
-        .info-card {
-            background: #ffffff;
-            border: 1px solid #e0ddd8;
-            border-radius: 12px;
-            padding: 32px;
-            transition: box-shadow 0.2s;
-        }
-        .info-card:hover {
-            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
-        }
-        .info-card h3 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .info-card p {
-            color: #4a4a4a;
-            font-size: 0.95rem;
-            margin-bottom: 8px;
-        }
-        .info-card .label {
-            font-weight: 600;
-            color: #1a1a1a;
-        }
-        .faq-item {
-            border-bottom: 1px solid #e0ddd8;
-            padding: 20px 0;
-        }
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-        .faq-item h4 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
-        .faq-item p {
-            color: #4a4a4a;
-            font-size: 0.95rem;
-        }
-        .bold-voice {
-            font-weight: 700;
-            color: #1a1a1a;
-        }
-        .highlight {
-            background: #f0ede8;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-weight: 600;
-        }
-        .tel-link {
-            display: inline-block;
-            background: #1a1a1a;
-            color: #ffffff;
-            padding: 12px 32px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            margin-top: 12px;
-            transition: background 0.2s;
-        }
-        .tel-link:hover {
-            background: #333;
-        }
-        footer {
-            padding: 40px 0 60px;
-            border-top: 1px solid #e0ddd8;
-            text-align: center;
-            color: #7a7a7a;
-            font-size: 0.85rem;
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="발산 마사지 링크 – 진짜 정보. 가짜 리뷰, 가격 낚시 없음.">
+ <meta name="keywords" content="발산 마사지, 발산 마사지 링크, 발산 스웨디시, 발산 타이마사지, 발산 근육통, 발산 전신마사지, 마사지 링크, 발산 마사지 정보">
+ <meta name="robots" content="index, follow">
+ <link rel="canonical" href="https://balsan-body-note.program-school.online/about.html">
+ <meta property="og:title" content="발산 마사지 링크 – 정보">
+ <meta property="og:description" content="발산 마사지 링크 – 진짜 정보. 가짜 리뷰, 가격 낚시 없음.">
+ <title>발산 마사지 링크 – 정보</title>
+ <style>
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ font-size: 16px;
+ scroll-behavior: smooth;
+ }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+ background: #faf8f5;
+ color: #1a1a1a;
+ line-height: 1.6;
+ }
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+ nav {
+ position: sticky;
+ top: 0;
+ background: #ffffff;
+ border-bottom: 1px solid #e0ddd8;
+ z-index: 100;
+ padding: 12px 0;
+ }
+ .nav-inner {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
+ .nav-logo {
+ font-size: 1.4rem;
+ font-weight: 700;
+ letter-spacing: -0.02em;
+ color: #1a1a1a;
+ text-decoration: none;
+ }
+ .nav-links {
+ display: flex;
+ gap: 32px;
+ align-items: center;
+ }
+ .nav-links a {
+ text-decoration: none;
+ color: #4a4a4a;
+ font-size: 0.95rem;
+ font-weight: 500;
+ transition: color 0.2s;
+ }
+ .nav-links a:hover {
+ color: #1a1a1a;
+ }
+ .hamburger {
+ display: none;
+ background: none;
+ border: none;
+ font-size: 1.8rem;
+ cursor: pointer;
+ color: #1a1a1a;
+ padding: 4px;
+ }
+ .hamburger:hover {
+ opacity: 0.7;
+ }
+ @media (max-width: 768px) {
+ .hamburger {
+ display: block;
+ }
+ .nav-links {
+ display: none;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ right: 0;
+ background: #ffffff;
+ flex-direction: column;
+ padding: 20px 24px;
+ gap: 16px;
+ border-bottom: 1px solid #e0ddd8;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+ }
+ .nav-links.open {
+ display: flex;
+ }
+ }
+ .page-header {
+ padding: 80px 0 40px;
+ text-align: center;
+ }
+ .page-header h1 {
+ font-size: 2.8rem;
+ font-weight: 800;
+ letter-spacing: -0.03em;
+ line-height: 1.15;
+ margin-bottom: 16px;
+ }
+ .page-header p {
+ font-size: 1.15rem;
+ color: #5a5a5a;
+ max-width: 640px;
+ margin: 0 auto;
+ }
+ .section {
+ padding: 60px 0;
+ }
+ .section-title {
+ font-size: 1.8rem;
+ font-weight: 700;
+ letter-spacing: -0.02em;
+ margin-bottom: 32px;
+ }
+ .grid-2 {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 40px;
+ }
+ @media (max-width: 640px) {
+ .grid-2 {
+ grid-template-columns: 1fr;
+ }
+ .page-header h1 {
+ font-size: 2rem;
+ }
+ }
+ .info-card {
+ background: #ffffff;
+ border: 1px solid #e0ddd8;
+ border-radius: 12px;
+ padding: 32px;
+ transition: box-shadow 0.2s;
+ }
+ .info-card:hover {
+ box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+ }
+ .info-card h3 {
+ font-size: 1.2rem;
+ font-weight: 600;
+ margin-bottom: 12px;
+ }
+ .info-card p {
+ color: #4a4a4a;
+ font-size: 0.95rem;
+ margin-bottom: 8px;
+ }
+ .info-card .label {
+ font-weight: 600;
+ color: #1a1a1a;
+ }
+ .faq-item {
+ border-bottom: 1px solid #e0ddd8;
+ padding: 20px 0;
+ }
+ .faq-item:last-child {
+ border-bottom: none;
+ }
+ .faq-item h4 {
+ font-size: 1.1rem;
+ font-weight: 600;
+ margin-bottom: 8px;
+ }
+ .faq-item p {
+ color: #4a4a4a;
+ font-size: 0.95rem;
+ }
+ .bold-voice {
+ font-weight: 700;
+ color: #1a1a1a;
+ }
+ .highlight {
+ background: #f0ede8;
+ padding: 2px 8px;
+ border-radius: 4px;
+ font-weight: 600;
+ }
+ .tel-link {
+ display: inline-block;
+ background: #1a1a1a;
+ color: #ffffff;
+ padding: 12px 32px;
+ border-radius: 8px;
+ text-decoration: none;
+ font-weight: 600;
+ font-size: 1.1rem;
+ margin-top: 12px;
+ transition: background 0.2s;
+ }
+ .tel-link:hover {
+ background: #333;
+ }
+ footer {
+ padding: 40px 0 60px;
+ border-top: 1px solid #e0ddd8;
+ text-align: center;
+ color: #7a7a7a;
+ font-size: 0.85rem;
+ }
+ </style>
   <meta property="og:url" content="https://balsan-body-note.program-school.online/about.html">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <nav>
-        <div class="nav-inner">
-            <a href="/" class="nav-logo">발산 마사지 링크</a>
-            <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="메뉴 열기">☰</button>
-            <div class="nav-links">
-                <a href="/">홈</a>
-                <a href="/info">정보</a>
-                <a href="/price">가격</a>
-                <a href="/review">리뷰</a>
-                <a href="tel:010-6279-0862" style="font-weight:700;">010-6279-0862</a>
-            </div>
-        </div>
-    </nav>
+ <nav>
+ <div class="nav-inner">
+ <a href="/" class="nav-logo">발산 마사지 링크</a>
+ <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="메뉴 열기">☰</button>
+ <div class="nav-links">
+ <a href="/">홈</a>
+ <a href="/info">정보</a>
+ <a href="/price">가격</a>
+ <a href="/review">리뷰</a>
+ 
+ </div>
+ </div>
+ </nav>
 
-    <div class="container">
-        <div class="page-header">
-            <h1>진짜 정보,<br>가짜는 없다.</h1>
-            <p>발산 마사지 링크에 대한 모든 것. 위치, 시간, 철학. 궁금하면 물어봐. 근데 이미 다 적어놨음.</p>
-        </div>
+ <div class="container">
+ <div class="page-header">
+ <h1>진짜 정보,<br>가짜는 없다.</h1>
+ <p>발산 마사지 링크에 대한 모든 것. 위치, 시간, 철학. 궁금하면 물어봐. 근데 이미 다 적어놨음.</p>
+ </div>
 
-        <div class="section">
-            <h2 class="section-title">📍 기본 정보</h2>
-            <div class="grid-2">
-                <div class="info-card">
-                    <h3>위치 & 접근성</h3>
-                    <p><span class="label">주소:</span> 서울 강서구 마곡중앙로 00길 00, 2층</p>
-                    <p><span class="label">찾아오는 길:</span> 발산역 1번 출구에서 도보 3분</p>
-                    <p><span class="label">주차:</span> 건물 지하 주차장 가능 (30분 무료)</p>
-                    <p style="margin-top:12px; font-size:0.9rem; color:#7a7a7a;">*네비게이션 검색 시 '발산 마사지 링크' 입력</p>
-                </div>
-                <div class="info-card">
-                    <h3>운영 시간</h3>
-                    <p><span class="label">평일:</span> 10:00 – 22:00 (마지막 접수 21:00)</p>
-                    <p><span class="label">주말:</span> 10:00 – 21:00 (마지막 접수 20:00)</p>
-                    <p><span class="label">연중무휴:</span> 명절 당일만 휴무</p>
-                    <p style="margin-top:12px; font-size:0.9rem; color:#7a7a7a;">*시간 외 예약은 전화 문의</p>
-                </div>
-            </div>
-        </div>
+ <div class="section">
+ <h2 class="section-title">📍 기본 정보</h2>
+ <div class="grid-2">
+ <div class="info-card">
+ <h3>위치 & 접근성</h3>
+ <p><span class="label">주소:</span> 서울 강서구 마곡중앙로 00길 00, 2층</p>
+ <p><span class="label">찾아오는 길:</span> 발산역 1번 출구에서 도보 3분</p>
+ <p><span class="label">주차:</span> 건물 지하 주차장 가능 (30분 무료)</p>
+ <p style="margin-top:12px; font-size:0.9rem; color:#7a7a7a;">*네비게이션 검색 시 '발산 마사지 링크' 입력</p>
+ </div>
+ <div class="info-card">
+ <h3>운영 시간</h3>
+ <p><span class="label">평일:</span> 10:00 – 22:00 (마지막 접수 21:00)</p>
+ <p><span class="label">주말:</span> 10:00 – 21:00 (마지막 접수 20:00)</p>
+ <p><span class="label">연중무휴:</span> 명절 당일만 휴무</p>
+ <p style="margin-top:12px; font-size:0.9rem; color:#7a7a7a;">*시간 외 예약은 전화 문의</p>
+ </div>
+ </div>
+ </div>
 
-        <div class="section">
-            <h2 class="section-title">💪 왜 '링크'인가?</h2>
-            <div class="grid-2">
-                <div class="info-card">
-                    <h3>결과에만 집중한다</h3>
-                    <p>가격 낚시, 가짜 후기, OK 매니저 사진. 그런 거 <span class="bold-voice">전혀 없다.</span></p>
-                    <p>우리는 몸을 바꾸는 마사지만 한다. 근육을 풀고, 혈류를 개선하고, 진짜 회복을 경험하게 한다.</p>
-                    <p style="margin-top:12px;">'링크'는 연결이다. <span class="highlight">너의 몸과 회복을 연결한다.</span></p>
-                </div>
-                <div class="info-card">
-                    <h3>원칙</h3>
-                    <p>✔️ 가격표는 투명하게 공개</p>
-                    <p>✔️ 리뷰는 실제 방문자만 작성</p>
-                    <p>✔️ 매니저는 모두 전문 자격증 보유</p>
-                    <p>✔️ 예약은 전화 010-6279-0862</p>
-                    <p style="margin-top:12px; font-size:0.9rem; color:#7a7a7a;">*사전 예약 필수, 워크인 가능하나 대기 발생</p>
-                </div>
-            </div>
-        </div>
+ <div class="section">
+ <h2 class="section-title">💪 왜 '링크'인가?</h2>
+ <div class="grid-2">
+ <div class="info-card">
+ <h3>결과에만 집중한다</h3>
+ <p>가격 낚시, 가짜 후기, OK 매니저 사진. 그런 거 <span class="bold-voice">전혀 없다.</span></p>
+ <p>우리는 몸을 바꾸는 마사지만 한다. 근육을 풀고, 혈류를 개선하고, 진짜 회복을 경험하게 한다.</p>
+ <p style="margin-top:12px;">'링크'는 연결이다. <span class="highlight">너의 몸과 회복을 연결한다.</span></p>
+ </div>
+ <div class="info-card">
+ <h3>원칙</h3>
+ <p>✔️ 가격표는 투명하게 공개</p>
+ <p>✔️ 리뷰는 실제 방문자만 작성</p>
+ <p>✔️ 매니저는 모두 전문 자격증 보유</p>
+ 
+ <p style="margin-top:12px; font-size:0.9rem; color:#7a7a7a;">*사전 예약 필수, 워크인 가능하나 대기 발생</p>
+ </div>
+ </div>
+ </div>
 
-        <div class="section">
-            <h2 class="section-title">❓ 자주 묻는 질문</h2>
-            <div class="faq-item">
-                <h4>처음 방문인데, 어떤 마사지를 받아야 하나요?</h4>
-                <p>발산 마사지 링크에 처음 왔다면 <span class="highlight">'링크 스페셜'</span>을 추천한다. 전신 근육을 전체적으로 풀고, 문제 부위를 집중 관리한다. 90분이면 몸이 가볍해지는 걸 느낄 수 있다.</p>
-            </div>
-            <div class="faq-item">
-                <h4>가격이 궁금해요. 낚시 아니죠?</h4>
-                <p>가격 페이지에 모든 코스 가격을 투명하게 적어놨다. 추가 요금, 할인 미끼 없다. 말한 그대로다. 못 믿겠으면 전화해서 확인해봐.</p>
-            </div>
-            <div class="faq-item">
-                <h4>예약은 꼭 전화로만 되나요?</h4>
-                <p>현재는 전화 예약이 가장 빠르다. 010-6279-0862로 바로 연락해. 문자나 카톡도 가능하지만, 전화가 제일 확실하다.</p>
-            </div>
-            <div class="faq-item">
-                <h4>타이마사지와 스웨디시 차이가 뭔가요?</h4>
-                <p>타이는 압박 위주로 근육을 깊게 풀고, 스웨디시는 부드럽게 혈류를 개선한다. 발산 마사지 링크는 <span class="bold-voice">둘 다 한다.</span> 상담 시 원하는 방식을 선택하면 된다.</p>
-            </div>
-        </div>
+ <div class="section">
+ <h2 class="section-title">❓ 자주 묻는 질문</h2>
+ <div class="faq-item">
+ <h4>처음 방문인데, 어떤 마사지를 받아야 하나요?</h4>
+ <p>발산 마사지 링크에 처음 왔다면 <span class="highlight">'링크 스페셜'</span>을 추천한다. 전신 근육을 전체적으로 풀고, 문제 부위를 집중 관리한다. 90분이면 몸이 가볍해지는 걸 느낄 수 있다.</p>
+ </div>
+ <div class="faq-item">
+ <h4>가격이 궁금해요. 낚시 아니죠?</h4>
+ <p>가격 페이지에 모든 코스 가격을 투명하게 적어놨다. 추가 요금, 할인 미끼 없다. 말한 그대로다. 못 믿겠으면 전화해서 확인해봐.</p>
+ </div>
+ <div class="faq-item">
+ <h4>예약은 꼭 전화로만 되나요?</h4>
+ <p>현재는 전화 예약이 가장 빠르다. 문자나 카톡도 가능하지만, 전화가 제일 확실하다.</p>
+ </div>
+ <div class="faq-item">
+ <h4>타이마사지와 스웨디시 차이가 뭔가요?</h4>
+ <p>타이는 압박 위주로 근육을 깊게 풀고, 스웨디시는 부드럽게 혈류를 개선한다. 발산 마사지 링크는 <span class="bold-voice">둘 다 한다.</span> 상담 시 원하는 방식을 선택하면 된다.</p>
+ </div>
+ </div>
 
-        <div class="section" style="text-align:center; padding-bottom:20px;">
-            <h2 class="section-title">📞 지금 예약하자</h2>
-            <p style="font-size:1.1rem; margin-bottom:8px;">전화 한 통이면 끝. 가짜 정보에 시간 낭비하지 마.</p>
-            <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
-            <p style="margin-top:16px; color:#7a7a7a; font-size:0.9rem;">발산역 1번 출구 3분 · 예약 우선 · 워크인 가능</p>
-        </div>
-    </div>
+ <div class="section" style="text-align:center; padding-bottom:20px;">
+ <h2 class="section-title">📞 지금 예약하자</h2>
+ <p style="font-size:1.1rem; margin-bottom:8px;">전화 한 통이면 끝. 가짜 정보에 시간 낭비하지 마.</p>
+ 
+ <p style="margin-top:16px; color:#7a7a7a; font-size:0.9rem;">발산역 1번 출구 3분 · 예약 우선 · 워크인 가능</p>
+ </div>
+ </div>
 
-    <footer>
-        <div class="container">
-            <p>발산 마사지 링크 | 서울 강서구 마곡중앙로 00길 00 2층 | 010-6279-0862</p>
-            <p style="margin-top:8px;">가짜 리뷰, 가격 낚시 없음. 결과로 말한다.</p>
-        </div>
-    </footer>
-    <script>
-        // 햄버거 메뉴 외부 클릭 시 닫기
-        document.addEventListener('click', function(e) {
-            const nav = document.querySelector('.nav-links');
-            const hamburger = document.querySelector('.hamburger');
-            if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
-                nav.classList.remove('open');
-            }
-        });
-    </script>
+ <footer>
+ <div class="container">
+ <p>발산 마사지 링크, 서울 강서구 마곡중앙로 00길 00 2층</p>
+ <p style="margin-top:8px;">가짜 리뷰, 가격 낚시 없음. 결과로 말한다.</p>
+ </div>
+ </footer>
+ <script>
+ // 햄버거 메뉴 외부 클릭 시 닫기
+ document.addEventListener('click', function(e) {
+ const nav = document.querySelector('.nav-links');
+ const hamburger = document.querySelector('.hamburger');
+ if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
+ nav.classList.remove('open');
+ }
+ });
+ </script>
 </body>
 </html>
